@@ -7,7 +7,7 @@ app.use(express.json());
 
 // GET route
 app.get('/payload', (req, res) => {
-  res.send({ message: 'GET Testing' });
+  res.send('GET Testing');
 });
 
 // POST route
